@@ -23,6 +23,12 @@ npm install
 ### Compile and Hot-Reload for Development
 
 ```sh
+npm run serve
+```
+
+### Or setup packages and start local host
+
+```sh
 npm run dev
 ```
 
