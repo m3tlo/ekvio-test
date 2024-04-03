@@ -74,7 +74,7 @@ const handleFileChange = (event: Event) => {
     if (files && files.length > 0) {
       file.value = files[0]
 
-      emit('file-selected', file)
+      emit('file-selected', file.value)
     }
     setLoading(false)
     event.target.removeAttribute('disabled')

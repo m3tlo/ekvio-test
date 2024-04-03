@@ -26,7 +26,7 @@ npm install
 npm run serve
 ```
 
-### Or setup packages and start local host
+### Or install packages and start local host
 
 ```sh
 npm run dev

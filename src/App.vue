@@ -27,7 +27,6 @@ const setError = (isStatusError: boolean) => {
 
 const handleFileSelected = (file: File) => {
   const random = getRandomInt(4)
-  console.log(random)
   if (random === 2 || random === 0) {
     setError(true)
   } else setError(false)
@@ -49,7 +48,7 @@ const fetchForm = (file: File) => {
   //      Сюда добавляем наш файл для отправки на сервер
   //   })
 
-  console.log(`Отправка файла: ${file} на сервер...`)
+  console.log(`Отправка файла: ${file.name} на сервер...`)
 }
 </script>
 
