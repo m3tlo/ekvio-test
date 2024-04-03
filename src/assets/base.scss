@@ -1,0 +1,31 @@
+/* color palette from <https://github.com/vuejs/theme> */
+
+$neutral-50: #f9fafb;
+$neutral-100: #f3f4f6;
+$neutral-200: #e5e7eb;
+$neutral-300: #d0d5dc;
+$neutral-400: #9ca3b0;
+$neutral-500: #6b7280;
+$neutral-600: #4b5563;
+$neutral-700: #384252;
+$neutral-900: #111827;
+
+$primary-500: #00a8a5;
+
+$error-500: #ef4343;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: #000;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+}
